@@ -1,8 +1,11 @@
+import Hero from '@/components/blocks/home/Hero'
 import React from 'react'
 
-const Home = () => {
+const Home:React.FC = () => {
   return (
-    <div>Home</div>
+    <div>
+        <Hero/>
+    </div>
   )
 }
 
