@@ -57,7 +57,7 @@ const Pricing:React.FC = () => {
                 <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                     <div className='relative max-w-xl mx-auto sm:text-center'>
                         <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                            Pricing for all sizes
+                            Pricing for all plans
                         </h3>
                         <div className='mt-3 max-w-xl'>
                             <p>
@@ -84,9 +84,10 @@ const Pricing:React.FC = () => {
                                         <p>
                                             {item.desc}
                                         </p>
-                                        <button style={{backgroundImage: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)"}} className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-[indigo-600] hover:bg-indigo-500 active:bg-indigo-700'>
-                                            Get Started
-                                        </button>
+                                     
+                                       <a href="register"style={{backgroundImage: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)"}} className='px-3 py-[13px] flex justify-center rounded-lg w-full font-semibold text-sm duration-150 text-white bg-[indigo-600] hover:text-white '>Get Started</a>
+                                       
+
                                     </div>
                                     <ul className='p-8 space-y-3'>
                                         <li className="pb-2 text-gray-800 font-medium">

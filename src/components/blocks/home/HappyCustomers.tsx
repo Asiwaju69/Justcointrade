@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HappyCustomers = () => {
+const HappyCustomers:React.FC = () => {
 
 
         const stats = [

@@ -14,7 +14,7 @@ const CTA :React.FC= () => {
                         </p>
                     </div>
                     <div className="mt-4">
-                        <a href="javascript:void(0)" className="inline-block py-2 px-4 text-gray-800 font-medium bg-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-full">
+                        <a href="register" className="inline-block py-2 px-4 text-gray-800 font-medium bg-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-full">
                             Get started now
                         </a>
                     </div>
