@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CTA = () => {
+const CTA :React.FC= () => {
 
         return (
             <section className="py-28 relative">

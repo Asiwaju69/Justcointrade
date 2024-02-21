@@ -6,7 +6,7 @@ const Header:FC = () => {
 
   useEffect(() => {
       const handleScroll = () => {
-          const isScrolled = window.scrollY > 0;
+          const isScrolled = window.scrollY > 100;
           setScroll(isScrolled);
       };
 
@@ -80,6 +80,16 @@ const Header:FC = () => {
                       </div>
                   </div>
               </div>
+
+                  {/* back to top */}
+{scroll &&     <a href='#'    className="fixed transition-all ease-in duration-3000 bottom-20 right-10 max-md:right-5 z-20 rounded-full bg-gray-100 p-3 hover:border-[var(--background)] hover:border justify-center items-center shadow-md">
+        <i className="text-3xl text-gray-800 grid place-items-center"> 
+        <svg className="w-6 h-6 text-gray-800 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v13m0-13 4 4m-4-4-4 4"/>
+  </svg>
+        </i>
+    </a>}
+    {/* end back to top */}
           </nav>
       )
   

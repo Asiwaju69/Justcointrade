@@ -22,7 +22,7 @@ const Footer:React.FC = () => {
         }
     ]
     return (
-        <footer className="pt-10">
+        <footer className="py-10">
             <div className=" mx-auto px-4 text-gray-600 md:px-16">
                 <div className="space-y-6 sm:max-w-md sm:mx-auto sm:text-center">
                  

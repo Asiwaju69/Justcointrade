@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Features = () => {
+const Features:React.FC = () => {
 
 
         const features = [

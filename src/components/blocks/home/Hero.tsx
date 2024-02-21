@@ -42,6 +42,9 @@ const Hero:React.FC = () => {
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
     </>
+
+
+
         </div>
         </>
   )
