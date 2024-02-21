@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../Logo'
 
 const Footer:React.FC = () => {
 
@@ -26,7 +27,7 @@ const Footer:React.FC = () => {
             <div className=" mx-auto px-4 text-gray-600 md:px-16">
                 <div className="space-y-6 sm:max-w-md sm:mx-auto sm:text-center">
                  
-                    <h2 className="text-[var(--background)] sm:mx-auto tracking-tighter font-black text-2xl">JustCoinTrades</h2>
+                    <Logo/>
                     <p>
                     We want you to not just Trade in the world’s financial markets, but also with a simple and user friendly online platform.
                     </p>
