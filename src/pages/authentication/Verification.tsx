@@ -43,7 +43,8 @@ const Verification:React.FC = () => {
                         <div className="text-center">
                             <Logo/>
                             <div className="mt-5 space-y-2">
-                                <h3 className="text-gray-800 text-2xl font-bold sm:text-3xl">Enter verification code</h3>
+                                <h3 className="text-gray-800 text-2xl font-bold sm:text-3xl">Enter OTP</h3>
+                                <p>Please check your email for your OTP. if you can't find it in your mail, please check your spam.</p>
 
                             </div>
                         </div>
