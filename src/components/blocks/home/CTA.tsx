@@ -3,7 +3,7 @@ import React from 'react'
 const CTA = () => {
 
         return (
-            <section className="py-28 relative bg-[#4158D0]">
+            <section className="py-28 relative">
                 <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:text-center md:px-8">
                     <div className="max-w-xl md:mx-auto">
                         <p className="text-white text-3xl font-semibold sm:text-4xl">
@@ -19,7 +19,7 @@ const CTA = () => {
                         </a>
                     </div>
                 </div>
-                {/* <div className="absolute top-0 w-full h-full" style={{ background: "llinear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)" }}></div> */}
+                <div className="absolute top-0 w-full h-full" style={{ background: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%" }}></div>
             </section>
         )
     }
