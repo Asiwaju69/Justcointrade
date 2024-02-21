@@ -84,7 +84,7 @@ const Pricing:React.FC = () => {
                                         <p>
                                             {item.desc}
                                         </p>
-                                        <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
+                                        <button style={{backgroundImage: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)"}} className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-[indigo-600] hover:bg-indigo-500 active:bg-indigo-700'>
                                             Get Started
                                         </button>
                                     </div>

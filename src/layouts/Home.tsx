@@ -12,10 +12,10 @@ const HomeLayout:React.FC = () => {
       </div>
         <Outlet/>
       
-        <Footer/>
-        <div className='sticky z-50 bottom-0 max-h-[5vh]  border-t w-full'>
+        <div className='fixed z-50 bottom-0 max-h-[5vh]  border-t w-full'>
           <Banner/>
         </div>
+        <Footer/>
     </div>
   )
 }

@@ -1,24 +1,35 @@
+import { FC, useState, useEffect } from 'react';
 
-
-import {FC, useState } from 'react'
 const Header:FC = () => {
+  const [state, setState] = useState(false);
+  const [scroll, setScroll] = useState(false);
 
+  useEffect(() => {
+      const handleScroll = () => {
+          const isScrolled = window.scrollY > 0;
+          setScroll(isScrolled);
+      };
 
-  
-      const [state, setState] = useState(false)
+      window.addEventListener('scroll', handleScroll);
+
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+  }, []);
   
       // Replace javascript:void(0) paths with your paths
       const navigation = [
           { title: "Features", path: "javascript:void(0)" },
-          { title: "Integrations", path: "javascript:void(0)" },
-          { title: "Customers", path: "javascript:void(0)" },
+          { title: "Why choose us", path: "javascript:void(0)" },
+          { title: "Get started ", path: "javascript:void(0)" },
+          { title: "Pricing", path: "javascript:void(0)" },
           { title: "Pricing", path: "javascript:void(0)" }
       ]
   
  
   
       return (
-          <nav className={`bg-white  transition-all ease-in-out pb-5 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
+          <nav className={` ${scroll ? "border-b" : null} bg-white  transition-all ease-in-out py-2 md:text-sm ${state ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0" : ""}`}>
               <div className="gap-x-14 items-center  mx-auto px-4 md:flex md:px-16">
                   <div className="flex items-center justify-between py-5 md:block">
                       <a href="javascript:void(0)">
