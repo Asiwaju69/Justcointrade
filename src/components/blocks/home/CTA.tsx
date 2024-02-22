@@ -19,7 +19,7 @@ const CTA :React.FC= () => {
                         </a>
                     </div>
                 </div>
-                <div className="absolute top-0 w-full h-full" style={{ background: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%" }}></div>
+                <div className="absolute top-0 w-full h-full" style={{ background: "linear-gradient(98.7deg,#5240f9 19.95%,#f3526d 89.51%)" }}></div>
             </section>
         )
     }

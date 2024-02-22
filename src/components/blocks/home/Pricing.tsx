@@ -85,7 +85,7 @@ const Pricing:React.FC = () => {
                                             {item.desc}
                                         </p>
                                      
-                                       <a href="register"style={{backgroundImage: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)"}} className='px-3 py-[13px] flex justify-center rounded-lg w-full font-semibold text-sm duration-150 text-white bg-[indigo-600] hover:text-white '>Get Started</a>
+                                       <a href="register" style={{ background: "linear-gradient(98.7deg,#5240f9 19.95%,#f3526d 89.51%)" }} className='px-3 py-[13px] flex justify-center rounded-lg w-full font-semibold text-sm duration-150 text-white bg-[indigo-600] hover:text-white '>Get Started</a>
                                        
 
                                     </div>

@@ -44,7 +44,7 @@ const ForgetPassword:React.FC = () => {
     </label>
                             </div>
                         
-                                <button style={{backgroundImage: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)"}}
+                                <button  style={{ background: "linear-gradient(98.7deg,#5240f9 19.95%,#f3526d 89.51%)" }}
                                     className="w-full px-4 py-3 text-white font-medium bg-[var(--background)]  hover:bg-indigo-500 active:bg-[var(--background)]  rounded-lg duration-150"
                                 >
                                     Reset Password

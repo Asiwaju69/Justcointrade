@@ -2,7 +2,7 @@ const TradingProducts = () => {
     return (
       <div
         id="showcase"
-        className="py-28 mt-14 bg-[var(--background)] gradient-container bg-gradient-to-r from-indigo-600 to-orange-500"
+        className="py-28 mt-14 bg-[var(--background)] gradient-container bg-gradient-to-r from-[#5240f9] to-[#f3526d]"
       >
         <div className=" mx-auto px-4 flex-wrap gap-x-12 justify-between items-center md:flex md:px-16 lg:flex-nowrap">
           <div className="max-w-xl space-y-3">

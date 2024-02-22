@@ -32,7 +32,7 @@ const Footer:React.FC = () => {
                     We want you to not just Trade in the world’s financial markets, but also with a simple and user friendly online platform.
                     </p>
                     <div className="items-center gap-x-3 space-y-3 sm:flex sm:justify-center sm:space-y-0">
-                        <a style={{backgroundImage: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)"}} href="register" className="block py-2 px-4 text-center text-white font-medium hover:text-white bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
+                        <a  style={{ background: "linear-gradient(98.7deg,#5240f9 19.95%,#f3526d 89.51%)" }} href="register" className="block py-2 px-4 text-center text-white font-medium hover:text-white bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
                             Let's get started
                         </a>
                         <a href="login" className="flex items-center justify-center gap-x-2 py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg md:inline-flex">

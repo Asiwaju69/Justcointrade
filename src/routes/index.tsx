@@ -1,4 +1,6 @@
+import Client_Dashboard_Layout from "@/layouts/Client_Dashboard";
 import HomeLayout from "@/layouts/Home";
+import Client_Home from "@/pages/Client_Dashboard/Home";
 import Home from "@/pages/Home";
 import ForgetPassword from "@/pages/authentication/ForgetPassword";
 import Login from "@/pages/authentication/Login";
@@ -15,6 +17,18 @@ export const appRoutes = createBrowserRouter([
         {
             index: true,
             element: <Home/>
+            
+        },
+ 
+       ]
+    },
+    {
+        path:"dashboard",
+       element: <Client_Dashboard_Layout/>,
+       children: [
+        {
+            index: true,
+            element: <Client_Home/>
             
         },
  
@@ -39,5 +53,6 @@ export const appRoutes = createBrowserRouter([
     {
         path:"*",
         element: <NotFound/>
-    }
+    },
+ 
 ])

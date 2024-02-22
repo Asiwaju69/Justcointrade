@@ -19,7 +19,7 @@ const Indices:React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <div className="absolute top-0 w-full h-[370px]" style={{ background: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%" }}></div>
+                <div className="absolute top-0 w-full h-[370px] bg-gray-900" ></div>
             </section>
         )
     }

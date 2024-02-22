@@ -4,6 +4,7 @@ const NotFound:React.FC = () => {
 
     document.title="404 - Page not found"
 
+
         return (
             <main>
                 <div className="max-w-screen-xl mx-auto px-4 flex items-center justify-start h-screen md:px-8">
@@ -18,7 +19,7 @@ const NotFound:React.FC = () => {
                             Sorry, the page you are looking for could not be found or has been removed.
                         </p>
                         <div className="flex flex-wrap items-center justify-center gap-3">
-                            <a style={{backgroundImage: "linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)"}} href="/" className="block py-2 px-4 text-white font-medium  duration-150 hover:text-white  rounded-lg">
+                            <a style={{backgroundImage: "linear-gradient(98.7deg,#5240f9 19.95%,#f3526d 89.51%)" }} href="/" className="block py-2 px-4 text-white font-medium  duration-150 hover:text-white  rounded-lg">
                                 Visit homepage
                             </a>
                             <a href="dashboard" className="block py-2 px-4 text-gray-700 hover:bg-gray-50 font-medium duration-150 active:bg-gray-100 border rounded-lg">
