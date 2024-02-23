@@ -24,8 +24,8 @@ const Dashboard_Header:React.FC = () => {
           <section className='flex items-center gap-8 max-md:gap-3'>
             {/* profile */}
             <div className='relative'>
-      <div
-        className='bg-[#EBEBEB] max-md:hidden cursor-pointer hover:shadow-sm ease-in transition-all duration-200 h-full p-[10px] rounded-md flex items-center gap-3'
+      <button
+        className='bg-[#EBEBEB] active:bg-[#e0e0e0] hover:border-gray-300 max-md:hidden cursor-pointer hover:shadow-sm ease-in transition-all duration-200 h-full p-[10px] rounded-md flex items-center gap-3'
         onClick={toggleTooltip}
       >
         {/* circle */}
@@ -49,7 +49,7 @@ const Dashboard_Header:React.FC = () => {
             </svg>
           </div>
         </div>
-      </div>
+      </button>
 
        {/* Tooltip */}
        {showTooltip && (
