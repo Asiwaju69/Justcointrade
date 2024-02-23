@@ -5,7 +5,7 @@ const Logo:React.FC = () => {
     <div>
         <a href="/">
          {/* <img src="https://floatui.com/logo.svg" width={150} className="mx-auto" /> */}
-         <h2 className="text-[var(--background)] sm:mx-auto tracking-tighter font-black max-md:text-xl text-2xl">JustCoinTrades</h2>
+         <h2 className="text-[var(--background)] sm:mx-auto tracking-tighter font-black max-lg:text-xl text-2xl">JustCoinTrades</h2>
         </a>
 
     </div>
