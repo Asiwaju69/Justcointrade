@@ -9,11 +9,11 @@ interface CustomButtonProps {
 
 const Dashboard_Button:React.FC<CustomButtonProps> = ({ onClick, icon: Icon, title }) => {
   return (
-    <button onClick={onClick} className='hover:bg-[#e0e0e044] hover:border-gray-200 text-[#5D636A]  rounded-lg bg-[#f8f8f9c4]'>
-<div className="py-3 px-6 min-h-[8rem] flex items-start flex-col justify-between ">
+    <button onClick={onClick} className='duration-150 bg-indigo-50  hover:bg-indigo-100 active:bg-indigo-200   rounded-lg '>
+<div className="px-4 min-h-[7rem] min-w-[8.8rem] flex items-start flex-col justify-between ">
 
-    <div className='rounded-full shadow-sm  w-[3.6em] bg-white h-[3.6rem] flex items-center justify-center'>
-    <p className='text-[38px]'>
+    <div className='rounded-full bg-white shadow-sm mt-3 mb-4 w-[3.6em] h-[3.6rem] flex items-center justify-center'>
+    <p className='text-[30px] text-[var(--background)]'>
 
     {Icon}
     </p>
@@ -21,7 +21,7 @@ const Dashboard_Button:React.FC<CustomButtonProps> = ({ onClick, icon: Icon, tit
  
 
   
-<h2 className='text-[15px] max-lg:text-[14px] text-gray-700 pt-6 text-left '>{title}</h2>
+<h2 className='text-[14px] font-semibold text-gray-700 w-[100px] pb-2 text-left '>{title}</h2>
 </div>
 </button>
   )

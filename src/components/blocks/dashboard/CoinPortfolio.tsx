@@ -1,6 +1,10 @@
 import Dashboard_Button from '@/components/props/Dashboard_Button';
 import React from 'react'
 import { FcCurrencyExchange } from "react-icons/fc";
+import { MdUpgrade } from "react-icons/md";
+import { FaLayerGroup } from "react-icons/fa6";
+import { IoCardOutline } from "react-icons/io5";
+import { BiDonateHeart } from "react-icons/bi";
 
 const CoinPortfolio:React.FC = () => {
   return (
@@ -49,13 +53,13 @@ const CoinPortfolio:React.FC = () => {
       {/* second part with quick actions */}
       <div className='my-3'>
         <h2 className='text-[#5D636A] font-semibold text-[17px] '> Quick Actions</h2>
-        <div className='w-full mt-6 flex gap-8 overflow-x-scroll '>
+        <div className='w-full mt-6 flex gap-4 overflow-x-scroll '>
         
         <Dashboard_Button onClick={()=>{}} title='Current plan' icon={<FcCurrencyExchange/>}/>
-        <Dashboard_Button onClick={()=>{}} title='Upgrade plan' icon={<FcCurrencyExchange/>}/>
-        <Dashboard_Button onClick={()=>{}} title='But assets' icon={<FcCurrencyExchange/>}/>
-        <Dashboard_Button onClick={()=>{}} title='Your cards' icon={<FcCurrencyExchange/>}/>
-        <Dashboard_Button onClick={()=>{}} title='Donate to a cause' icon={<FcCurrencyExchange/>}/>
+        <Dashboard_Button onClick={()=>{}} title='Upgrade plan' icon={<MdUpgrade/>}/>
+        <Dashboard_Button onClick={()=>{}} title='Buy assets' icon={<FaLayerGroup/>}/>
+        <Dashboard_Button onClick={()=>{}} title='Your cards' icon={<IoCardOutline/>}/>
+        <Dashboard_Button onClick={()=>{}} title='Donate to a cause' icon={<BiDonateHeart/>}/>
     
         </div>
        

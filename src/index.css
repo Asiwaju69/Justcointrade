@@ -1,5 +1,5 @@
 :root {
-  font-family: "Lato", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans' ;
+  font-family: "Lato", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', ;
   line-height: 1.5;
   font-weight: 400;
 
@@ -50,7 +50,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #646cff52;
 }
 button:focus,
 button:focus-visible {

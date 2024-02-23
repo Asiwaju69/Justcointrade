@@ -53,11 +53,12 @@ const Dashboard_Header:React.FC = () => {
 
        {/* Tooltip */}
        {showTooltip && (
-        <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 max-w-[200px] bg-gray-800 text-white px-3 py-2 rounded-lg shadow-md">
+        <div className="absolute top-full max-md:-left-4 left-1/2 transform -translate-x-1/2 mt-2 max-md:mt-7 max-md:w-[170px] bg-[#F8F8F9] text-gray-800 border px-3 py-2 rounded-lg shadow-md">
           <div className="relative">
-            <div className="absolute w-6 h-6 bg-gray-800 -z-10 rotate-45 -top-3 right-0 transform"></div>
+            <div className="absolute w-6 h-6 bg-[#F8F8F9] rounded-sm -z-10 rotate-45 -top-3 right-0 transform"></div>
           <div className='z-20'>
-          <p className="text-sm">Tooltip</p>
+          <p className="text-sm">Menus would be here</p>
+          <p className="text-sm">Menus would be here</p>
           </div>
           </div>
         </div>
@@ -67,9 +68,9 @@ const Dashboard_Header:React.FC = () => {
             
 
 
-{/* sign out */}
+{/* sign out mobile */}
  {/* circle */}
- <div className='cursor-pointer uppercase w-8 h-8 grid place-items-center p-1 ring-2 ring-gray-400  md:hidden tracking-wider  text-white bg-[var(--background)] rounded-full'>
+ <div onClick={toggleTooltip} className='cursor-pointer uppercase w-8 h-8 grid place-items-center p-1 ring-2 ring-gray-400  md:hidden tracking-wider  text-white bg-[var(--background)] rounded-full'>
                 IS
               </div>
             <div className='text-2xl max-md:text-xl text-gray-600 cursor-pointer'>
