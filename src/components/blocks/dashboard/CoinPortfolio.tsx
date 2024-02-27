@@ -5,6 +5,7 @@ import { MdUpgrade } from "react-icons/md";
 import { FaLayerGroup } from "react-icons/fa6";
 import { IoCardOutline } from "react-icons/io5";
 import { BiDonateHeart } from "react-icons/bi";
+import TopTradingCoin from './TopTradingCoin';
 
 const CoinPortfolio:React.FC = () => {
   return (
@@ -55,10 +56,10 @@ const CoinPortfolio:React.FC = () => {
         <h2 className='text-[#5D636A] font-semibold text-[17px] '> Quick Actions</h2>
         <div className='w-full mt-6 flex gap-4 overflow-x-scroll '>
         
-        <Dashboard_Button onClick={()=>{}} title='Current plan' icon={<FcCurrencyExchange/>}/>
-        <Dashboard_Button onClick={()=>{}} title='Upgrade plan' icon={<MdUpgrade/>}/>
         <Dashboard_Button onClick={()=>{}} title='Buy assets' icon={<FaLayerGroup/>}/>
         <Dashboard_Button onClick={()=>{}} title='Your cards' icon={<IoCardOutline/>}/>
+        <Dashboard_Button onClick={()=>{}} title='Current plan' icon={<FcCurrencyExchange/>}/>
+        <Dashboard_Button onClick={()=>{}} title='Upgrade plan' icon={<MdUpgrade/>}/>
         <Dashboard_Button onClick={()=>{}} title='Donate to a cause' icon={<BiDonateHeart/>}/>
     
         </div>
@@ -68,8 +69,10 @@ const CoinPortfolio:React.FC = () => {
 
 {/* second section, move to a component */}
 <div className='flex flex-col gap-6'>
-  <span >Info</span>
-<div style={{ background: "linear-gradient(135deg,#c0cffe 0,#f3dff4 56.25%,#f9d8e5 96.35%)" }} className='h-full rounded-lg p-4'>jkdjkfjk</div>
+  <span >Top cryptocurrency</span>
+<div  style={{ background: "linear-gradient(135deg,#c0cffe 0,#f3dff4 56.25%,#f9d8e5 96.35%)" }} className='h-full w-full rounded-lg flex justify-center pt-8'>
+  <TopTradingCoin/>
+</div>
 
 </div>
     </section>

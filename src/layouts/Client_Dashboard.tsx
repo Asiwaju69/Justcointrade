@@ -10,7 +10,7 @@ const Client_Dashboard_Layout:React.FC = () => {
       <Dashboard_Header/>
     </div>
 
-    <div className='w-full flex justify-center mt-2 '>
+    <div className='w-full flex justify-center mt-2 max-md:pb-20'>
 
       <Outlet/>
     </div>
